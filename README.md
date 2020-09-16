@@ -1,4 +1,6 @@
 # selectel-test
+Test link:
+https://dragoonzx.github.io/selectel-testing/
 
 ## Build Setup
 
