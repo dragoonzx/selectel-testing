@@ -39,7 +39,7 @@ export default {
 <style lang="scss">
 .header {
   padding: 28px 0;
-  background: #F2F2F2;
+  background: $data-white;
 
   @media only screen and (max-width: 1200px) {
     padding: 14px 0;
