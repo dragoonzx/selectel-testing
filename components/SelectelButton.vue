@@ -1,6 +1,8 @@
 <template>
-  <a
-    :href="link"
+  <form
+    style="display: inline"
+    :action="link"
+    method="get"
   >
     <button
       class="button"
@@ -9,7 +11,7 @@
     >
       <slot>Дефолтная кнопка</slot>
     </button>
-  </a>
+  </form>
 </template>
 
 <script>

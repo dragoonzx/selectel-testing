@@ -6,14 +6,14 @@
       <h2>
         {{ faqData.title }}
       </h2>
-      <ul class="faq__list">
+      <div class="faq__list">
         <selectel-faq-item
           v-for="item in faqData.items"
           :key="item.id"
           :answer="item.answer"
           :question="item.question"
         />
-      </ul>
+      </div>
     </div>
   </section>
 </template>
