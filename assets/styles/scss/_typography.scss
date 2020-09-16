@@ -1,0 +1,53 @@
+html {
+  font-family: "Manrope", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 120%;
+  color: $data-white;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 42px;
+  }
+
+  @media only screen and (max-width: 375px) {
+    font-size: 36px;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 112%;
+  color: $data-blue;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 26px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 112%;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+p {
+  &.subtitle {
+    font-size: 16px;
+    line-height: 125%;
+    max-width: 80%;
+    margin: 16px 0 32px 0;
+  }
+}
