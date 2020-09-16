@@ -55,7 +55,7 @@ export default {
 .slider {
   display: flex;
   align-items: flex-end;
-  background: url('~static/images/main-slide.png') no-repeat center;
+  background: url('/images/main-slide.png') no-repeat center;
   background-size: cover;
   min-height: 620px;
 
